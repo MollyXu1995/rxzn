@@ -1,0 +1,12 @@
+.swiper-slide-active,
+.swiper-slide-duplicate-active {
+  z-index: 2 !important;
+  transform: scale(1) !important;
+}
+
+.swiper-slide-active,
+.swiper-slide-duplicate-active,
+.swiper-slide-prev,
+.swiper-slide-next {
+  visibility: unset !important;
+}

@@ -10,5 +10,79 @@
     <script src="./js/swiper-bundle.min.js"></script>
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div class="bg-[url('./images/top.png')]">
+      <div class="mx-auto flex h-20 max-w-screen-xl xl:gap-8">
+        <img class="object-scale-down" src="./images/logo.png" />
+        <img class="hidden object-scale-down lg:block" src="./images/jxdz.png" />
+        <div class="flex-1"></div>
+        <div class="flex shrink-0 items-center gap-4 text-center text-xl text-white">
+          <a href="#" class="underline-offset-4 hover:underline">
+            <div>登录器下载</div>
+            <div class="text-xs">GAME DWONS</div>
+          </a>
+          <a href="#" class="underline-offset-4 hover:underline">
+            <div>微端下载</div>
+            <div class="text-xs">GAME DATA</div>
+          </a>
+          <a href="#" class="underline-offset-4 hover:underline">
+            <div>网盘下载</div>
+            <div class="text-xs">GAME YUN</div>
+          </a>
+          <a href="#" class="underline-offset-4 hover:underline">
+            <div>游戏充值</div>
+            <div class="text-xs">GAME PAY</div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="mx-auto flex max-w-screen-xl items-center justify-center">
+        <div class="swiper-prev"><img src="./images/left.png" alt="" /></div>
+        <div class="swiper mx-0 max-w-screen-md">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide invisible scale-90 transition duration-300">
+              <img src="./images/card.png" />
+            </div>
+            <div class="swiper-slide invisible scale-90 transition duration-300">
+              <img src="./images/card.png" />
+            </div>
+            <div class="swiper-slide invisible scale-90 transition duration-300">
+              <img src="./images/card.png" />
+            </div>
+            <div class="swiper-slide invisible scale-90 transition duration-300">
+              <img src="./images/card.png" />
+            </div>
+            <div class="swiper-slide invisible scale-90 transition duration-300">
+              <img src="./images/card.png" />
+            </div>
+          </div>
+        </div>
+        <div class="swiper-next"><img src="./images/right.png" alt="" /></div>
+      </div>
+    </div>
+    <div class="bg-slate-100">
+      <div class="mx-auto flex h-36 max-w-screen-lg items-center justify-evenly">
+        <img class="w-32 object-scale-down" src="./images/logo.png" />
+        <div class="h-10 w-[1px] bg-gray-500"></div>
+        <div class="shrink-0 text-xs leading-6">
+          <p>抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防上当受骗 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活</p>
+          <p>热血之怒 版权所有 本游戏由【乱世王者】独家开发运营</p>
+          <p>网站美工由www.1112233.com 提供设计制作【免责声明：本工作室只做网站，不参与游戏设计与运营】</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    new Swiper('.swiper', {
+      slidesPerView: 3,
+      spaceBetween: -200,
+      centeredSlides: true,
+      loop: true,
+      navigation: {
+        nextEl: '.swiper-next',
+        prevEl: '.swiper-prev',
+      },
+    });
+  </script>
 </html>
